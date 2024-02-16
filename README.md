@@ -1,26 +1,30 @@
-#Guillermo Arámbula Langarica
+# Guillermo Arámbula Langarica
 
 - [✅ Resultados obtenidos](#resultados-obtenidos "resultados-obtenidos")
 - [🔗 Puntos de consulta](#puntos-de-consulta "resultados-obtenidos")
 - [📷 Screenshots](#screenshots "resultados-obtenidos")
 
 ## Resultados obtenidos:
-- [x] Se usó Laravel 10.x
-- [x] Se puede consultar el listado de empresas y sus tareas relacionadas
-- [x] Se implemento el uso de relaciones Eloquent HasMany
-- [x] Se implemento el uso de relaciones Eloquent BelongsTo
-- [x] Se utilizó validación para la creación de tareas
-- [x] Se limito la creación de tareas pendientes a 5 por usuario
-- [x] Los modelos están correctamente nombrados en base a las conveciones de Laravel
-- [x] Las tablas de base de datos se pueden crear mediante migraciones
-- [x] Los modelos cuentan con Factories
-- [x] Se crearon Seeders
-- [x] No se utilizo consultas en “crudo (raw)”
-- [x] Se subio el código a un repositorio de GIT
-- [x] Se adjuntaron capturas de pantalla de los resultados de las consultas a los puntos de consulta
+- ✅ Se usó Laravel 10.x
+- ✅ Se puede consultar el listado de empresas y sus tareas relacionadas
+- ✅ Se implemento el uso de relaciones Eloquent HasMany
+- ✅ Se implemento el uso de relaciones Eloquent BelongsTo
+- ✅ Se utilizó validación para la creación de tareas
+- ✅ Se limito la creación de tareas pendientes a 5 por usuario
+- ✅ Los modelos están correctamente nombrados en base a las conveciones de Laravel
+- ✅ Las tablas de base de datos se pueden crear mediante migraciones
+- ✅ Los modelos cuentan con Factories
+- ✅ Se crearon Seeders
+- ✅ No se utilizo consultas en “crudo (raw)”
+- ✅ Se subio el código a un repositorio de GIT
+- ✅ Se adjuntaron capturas de pantalla de los resultados de las consultas a los puntos de consulta
 
 
 ## Puntos de consulta
+
+> [!IMPORTANT]
+> Agregar en la cabecera de la petición `Content-type: Application/json` y `Accept: Application/json`
+
 **Url:** `http://localhost:8000/api`
 
 #### GET `/companies`
@@ -75,7 +79,7 @@
 ]
 ```
 
-#### POST `/task/create`
+#### POST `/tasks/create`
 ##### **Body**
 
 ```json
@@ -106,7 +110,7 @@
 #### GET `/companies`
 ![alt text](image.png)
 
-#### POST `/task/create`
+#### POST `/tasks/create`
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 ![alt text](image-3.png)
